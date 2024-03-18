@@ -22,6 +22,7 @@ Built With: HTML | CSS | JavaScript
 
 ![image](https://github.com/jwathika/my-personal-website/assets/162694608/cd2d997b-5103-4cca-9354-88f8f90fbf37)
 ![jwathika github io_my-personal-website_ (1)](https://github.com/jwathika/my-personal-website/assets/162694608/0ef164cb-d7e5-4eea-9395-b2dfdd40c881)
+![image](https://github.com/jwathika/my-personal-website/assets/162694608/f755efae-c054-4134-888e-be6048832ac4)
 
 
 Author: J.Wathika
