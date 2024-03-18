@@ -17,6 +17,14 @@ body {
 	color: rgb(255, 255, 255);
 	background-color: rgba(24, 1, 80, 0.8);
 }
+#menu-icon {
+	display: none !important;
+}
+@media (max-width: 728px) {
+	#menu-icon {
+		display: block !important;
+	}
+}
 
 .logo {
 	text-align: start;

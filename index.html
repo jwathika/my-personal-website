@@ -48,17 +48,6 @@
 			sizes="16x16"
 			href="img/favicon-16x16.png"
 		/>
-		<style>
-			#menu-icon {
-				display: none !important;
-			}
-			@media (max-width: 728px) {
-				#menu-icon {
-					display: block !important;
-				}
-			}
-		</style>
-
 		<title>Portfolio</title>
 		<!---------------------------------------Start---------------------------------->
 	</head>
@@ -78,7 +67,7 @@
 						<li><a href="#services">Services</a></li>
 						<li><a href="#contact">Contacts</a></li>
 						<p class="p-main">
-							<a href="#" target="_blank" rel="noopener noreferrer"
+							<a href="#" rel="noopener noreferrer"
 								><button class="tweet-button">
 									<b>LinkTree <i class="fa fa-tree"></i></b></button
 							></a>
@@ -220,7 +209,6 @@
 									<a
 										class="git"
 										href="#"
-										target="_blank"
 										rel="noopener noreferrer"
 										style="transform: scale(1)"
 										>Connect with me on Github</a
@@ -276,18 +264,28 @@
 				<h1 class="sub">My Work</h1>
 				<div class="work-list">
 					<div class="work">
-						<img loading="lazy" src="img/work-1.webp" />
+						<img
+							loading="lazy"
+							src="img/work-1.webp"
+							title="work1"
+							alt="work1"
+						/>
 						<div class="layer">
 							<h3>Music App</h3>
 							<p>This is a cloned Spotify which has Kikuyu songs and mixes.</p>
 							<p>Download it here</p>
-							<a href="">
+							<a href="#">
 								<i class="fa-solid fa-arrow-up-right-from-square"></i
 							></a>
 						</div>
 					</div>
 					<div class="work">
-						<img loading="lazy" src="img/work-2.webp" />
+						<img
+							loading="lazy"
+							src="img/work-2.webp"
+							title="work2"
+							alt="work2"
+						/>
 						<div class="layer">
 							<h3>Notes App</h3>
 							<p>
@@ -295,18 +293,23 @@
 								notes.
 							</p>
 							<p>Download it here</p>
-							<a href="">
+							<a href="#">
 								<i class="fa-solid fa-arrow-up-right-from-square"></i
 							></a>
 						</div>
 					</div>
 					<div class="work">
-						<img loading="lazy" src="img/work-3.webp" />
+						<img
+							loading="lazy"
+							src="img/work-3.webp"
+							title="work3"
+							alt="work3"
+						/>
 						<div class="layer">
 							<h3>Music App</h3>
 							<p>This is a cloned Spotify which has Kikuyu songs and mixes.</p>
 							<p>Download it here</p>
-							<a href="">
+							<a href="#">
 								<i class="fa-solid fa-arrow-up-right-from-square"></i
 							></a>
 						</div>
@@ -324,28 +327,28 @@
 						<p><i class="fa-solid fa-phone-volume"></i> 0746554245</p>
 						<p><i class="fa-regular fa-paper-plane"></i> wathika02@gmail.com</p>
 						<div class="social-icons">
-							<a href="#" target="_blank" rel="noopener noreferrer">
+							<a href="#" rel="noopener noreferrer">
 								<i style="font-size: 40px" class="fa-brands fa-linkedin"></i>
 							</a>
-							<a href="#" target="_blank" rel="noopener noreferrer"
+							<a href="#" rel="noopener noreferrer"
 								><i
 									style="font-size: 40px"
 									class="fa-brands fa-square-twitter"
 								></i>
 							</a>
-							<a href="#" target="_blank" rel="noopener noreferrer"
+							<a href="#" rel="noopener noreferrer"
 								><i style="font-size: 40px" class="fa-brands fa-github"></i>
 							</a>
 							<a href="#" rel="noopener noreferrer"
 								><i style="font-size: 40px" class="fa-brands fa-instagram"></i>
 							</a>
-							<a href="#" target="_blank" rel="noopener noreferrer"
+							<a href="#" rel="noopener noreferrer"
 								><i style="font-size: 40px" class="fa-brands fa-youtube"></i>
 							</a>
 						</div>
 						<a
 							onclick="alter()"
-							href=" "
+							href="#"
 							rel="noopener noreferrer"
 							class="btn btn2"
 							>Download my CV</a
@@ -390,7 +393,7 @@
 			<div class="copyright">
 				<p>
 					Copyright &copy;
-					<script>
+					<script async>
 						document.write(new Date().getFullYear());
 					</script>
 					. | All right reserved. | Made by Wathika
@@ -399,28 +402,11 @@
 		</div>
 
 		<!----------------------------------------------------Javascript--------------------------------->
-		<script>
-			function vibrate() {
-				navigator.vibrate(200);
-
-				document.getElementById('sub').innerText = 'Submitted✔';
-			}
-		</script>
-		<script>
-			function del() {
-				document.getElementById('del').innerText = 'Cleared❌';
-			}
-		</script>
 		<script async src="js/main.js"></script>
 		<script async src="js/menu.js"></script>
-		<script>
+		<!-- <script>
 			alert('Still Under-Development!');
-		</script>
-		<script defer src="js/top.js"></script>
-		<!----<script src="swiper.js" ></script>---
-
-    ------------choose default theme-------------------------------------->
-
-		<script src="load.js"></script>
+		</script> -->
+		<script async src="js/top.js"></script>
 	</body>
 </html>
